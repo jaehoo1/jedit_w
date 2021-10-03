@@ -116,6 +116,7 @@
      <string>분석</string>
     </property>
     <addaction name="action_word_count"/>
+    <addaction name="action_kor_to_eng"/>
    </widget>
    <addaction name="menu_file"/>
    <addaction name="menu_edit"/>
@@ -360,6 +361,11 @@
   <action name="action_word_count">
    <property name="text">
     <string>단어 횟수</string>
+   </property>
+  </action>
+  <action name="action_kor_to_eng">
+   <property name="text">
+    <string>한/영 번역</string>
    </property>
   </action>
  </widget>
