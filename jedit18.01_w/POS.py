@@ -47,7 +47,7 @@ def btn_order():
         order = []
         fp.close()
 
-fp = open('./ITEM', 'r')
+fp = open('./ITEM', 'r', encoding='UTF-8')
 data = fp.read()
 fp.close()
 keys = []
