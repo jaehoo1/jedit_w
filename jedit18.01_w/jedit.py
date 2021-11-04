@@ -615,7 +615,7 @@ class WindowClass(QMainWindow, form_class):
         engToKorWindow(self)
 
     def POSFunction(self):
-        os.system("./POS.py")
+        os.system("python POS.py")
 
 
 app = QApplication(sys.argv)
